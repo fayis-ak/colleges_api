@@ -80,6 +80,7 @@ class UniversityListScreen extends StatelessWidget {
                   InkWell(
                     onTap: () {
                       launch(university.webpage.toString());
+                      
                     },
                     child: Text(
                       'web page :  ${university.webpage}',
